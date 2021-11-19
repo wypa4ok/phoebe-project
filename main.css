@@ -167,8 +167,8 @@
      }
  
      .card-wrapper {
-       height: 500px;
-       max-width: 1000px;
+       height: 1000px;
+       max-width: 500px;
        perspective: 600px;
        position: relative;
        width: 100%;
@@ -181,12 +181,25 @@
          border-radius: 50%;
      }
 
-     .left {
-         float: left;
-         width: 400px;
+     .info-table {
+        margin: auto;
+        color: #d4cd96;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        margin-top: 50px;
+        font-size: larger;
+     }
+     
+     .info-table td {
+         padding: 5px;
      }
 
-     .right {
-         float: right;
-         width: 400px;
+     .footer-note {
+         position: absolute;
+         bottom: 10px;
+         text-align: center;
+         width: 100%;
+         font-family: 'Courier New', Courier, monospace;
+         font-weight: bolder;
+         font-size: larger;
      }
