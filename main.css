@@ -32,6 +32,13 @@
      a:hover {
        text-decoration: underline;
      }
+
+     .card-wrapper {
+        height: 90%;
+        position: relative;
+        width: 90%;
+        transition: transform 1s;
+      }
  
      .card {
        color: #d4cd96;
@@ -66,6 +73,10 @@
        position: absolute;
        top: 0;
        width: 100%;
+       color: #d4cd96;
+       font-family: 'Courier New', Courier, monospace;
+       font-weight: bolder;
+       font-size: larger;
      }
  
      .card-back {
@@ -165,15 +176,6 @@
        right: 0;
        transform: rotateZ(90deg);
      }
- 
-     .card-wrapper {
-       height: 1000px;
-       max-width: 500px;
-       perspective: 600px;
-       position: relative;
-       width: 100%;
-       transition: transform 1s;
-     }
 
      .avatar {
          width: 400px;
@@ -194,12 +196,19 @@
          padding: 5px;
      }
 
+     .info-table td[colspan="2"] {
+        text-align: center;
+    }
+
      .footer-note {
-         position: absolute;
-         bottom: 10px;
          text-align: center;
          width: 100%;
          font-family: 'Courier New', Courier, monospace;
          font-weight: bolder;
          font-size: larger;
+         margin-top: 50px;
+     }
+
+     .avatar-wrapper {
+         text-align: center;
      }
